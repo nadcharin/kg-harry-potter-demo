@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+tiktoken = "*"
+openai = "*"
+neo4j = "*"
+python-dotenv = "*"
+wikipedia = "*"
+langchain-cli = {version = "*", extras = ["serve"]}
+pandas = "*"
+graphdatascience = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.9"
